@@ -1,6 +1,6 @@
 %% Ocean Current
-%% Matlab R2017A ÑéÖ¤Í¨¹ý
-%% ÂÛÎÄÖÐµÄº£Á÷Ä£ÐÍ
+%% Matlab R2017A platform
+%% OC Model in the paper
 
 syms Fc y Bt k x c t Bo e w theta Uc Vc Dc Nc alpha
 
@@ -18,7 +18,7 @@ Fc = 1-tanh(Dc/Nc);
 Uc = -diff(Fc,y);
 Vc = diff(Fc,x);
 
-% ±äÁ¿¸³Öµ
+% Variable Assignments
 Bo = 1.2;
 c = 0.12;
 k = 0.82;
@@ -30,7 +30,7 @@ t = 1;
 [x,y] = meshgrid(-5:0.2:11,-7:0.2:9);
 % 
 % Fcct = eval(vpa(subs(Fc))); 
-Fcct = eval(subs(Fc)); % Õâ¸ö¼ÆËã½á¹ûÊÇ¶ÔµÄ
+Fcct = eval(subs(Fc)); % è¿™ä¸ªè®¡ç®—ç»“æžœæ˜¯å¯¹çš„
 Ucn = eval(subs(Uc));
 Vcn = eval(subs(Vc));
 Phi = Fcct;

@@ -1,6 +1,6 @@
 %% Ocean Current
-%% Matlab R2017A 验证通过
-%% 论文中的海流模型
+%% Matlab R2017A platform
+%% OC Model in the paper
 
 syms Fc y Bt k x c t Bo e w theta Uc Vc Dc Nc alpha
 
@@ -18,7 +18,7 @@ Fc = 1-tanh(Dc/Nc);
 Uc = -diff(Fc,y);
 Vc = diff(Fc,x);
 
-% 变量赋值
+% Variable Assignments
 Bo = 1.2;
 c = 0.12;
 k = 0.82;
@@ -30,7 +30,7 @@ t = 1;
 [x,y] = meshgrid(-5:0.2:11,-7:0.2:9);
 % 
 % Fcct = eval(vpa(subs(Fc))); 
-Fcct = eval(subs(Fc)); % 这个计算结果是对的
+Fcct = eval(subs(Fc)); % This result is also right.
 Ucn = eval(subs(Uc));
 Vcn = eval(subs(Vc));
 Phi = Fcct;
