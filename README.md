@@ -1,6 +1,6 @@
 # SMC_Code
 
-MATLAB Code of HOSMC for formation tracking
+MATLAB Code of HOSMC for Formation Tracking
 
 Authors: Xin Li
 
