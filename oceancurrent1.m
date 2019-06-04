@@ -30,7 +30,7 @@ t = 1;
 [x,y] = meshgrid(-5:0.2:11,-7:0.2:9);
 % 
 % Fcct = eval(vpa(subs(Fc))); 
-Fcct = eval(subs(Fc)); % This result is also right.
+Fcct = eval(subs(Fc)); % Fcct = subs(Fc); This result is also right.
 Ucn = eval(subs(Uc));
 Vcn = eval(subs(Vc));
 Phi = Fcct;
