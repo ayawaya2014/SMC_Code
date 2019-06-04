@@ -35,7 +35,7 @@ Ucn = eval(subs(Uc));
 Vcn = eval(subs(Vc));
 Phi = Fcct;
 
-figure 
+figure(1)
 C = quiver(Ucn,Vcn);
 % X = -10:70;
 % Y = -10:70;
