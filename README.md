@@ -1,6 +1,6 @@
 # SMC_Code
 
-MATLAB Code of
+MATLAB Code of HOSMC for formation tracking
 
 Authors: Xin Li
 
@@ -12,5 +12,5 @@ College of Information Engineering
 
 Shanghai Maritime University
 
-![apf-1](apf-1.png)
+![apf-1](oc1.png)
 
