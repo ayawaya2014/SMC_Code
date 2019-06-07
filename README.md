@@ -18,7 +18,7 @@ Matlab 2017a +
 
 2. run follower_rx.m
 
-3. to compare the results with the traditional som method, use smc_sim_1.mdl
+3. to compare the results with the traditional smc method, use smc_sim_1.mdl
 
-![apf-1](oc1.png)
+[Ocean current simulation](oc1.png)
 
