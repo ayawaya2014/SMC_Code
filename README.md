@@ -20,5 +20,6 @@ Matlab 2017a +
 
 3. to compare the results with the traditional smc method, use smc_sim_1.mdl
 
-[Ocean current simulation](oc1.png)
+Ocean current simulation
+![apf-1](oc1.png)
 
